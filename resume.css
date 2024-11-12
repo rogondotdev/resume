@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-weight: 18px;
+}
+body{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.resume-container{
+  max-width: 80%;
+  box-shadow: 0 0 3rem black;
+  align-self: center;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.first-section{
+  background-color: royalblue;
+}
+.second-section{
+  background-color: #efefef;
+}
+h1{
+  text-transform: uppercase;
+}
+h2{
+  text-transform: uppercase;
+}
+.skills-title{
+  text-transform: uppercase;
+}

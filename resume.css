@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, sans-serif;
+  }
+  body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .resume-container{
+    max-width: 80%;
+    box-shadow: 0 0 3rem black;
+    align-self: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .first-section{
+    background-color: #2d417f;
+    color: #efefef;
+  }
+  .second-section{
+    background-color: #efefef;
+  }
+  h1{
+    text-transform: uppercase;
+  }
+  h2{
+    text-transform: uppercase;
+  }
+  .standard-hr{
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+  }
+  .second-hr{
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    border: 1.5px solid #2d417f;
+  }
+  .skills-title{
+    text-transform: uppercase;
+  }
+  .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .grad-pic{
+    width: 250px;
+    border-radius: 100vh;
+    box-shadow: 0 0 3em rgba(0, 0, 0, 0.5);
+  }
+  .first-section{
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .first-section h2, .second-h2{
+    margin-top: 3em;
+    font-weight: 500;
+  }
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-container > div{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    padding: 0.5em;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .contact-container > div:hover{
+    background-color: #1f2d568b;
+    opacity: 0.6;
+  }
+  .contact-container div > a{
+    color: #efefef;
+    text-decoration: none;
+  }
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.soft-skills, .tech-skills{
+    margin-top: 2em;
+}
+.skills-title{
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.skills-container ul{
+    margin-left: 2em;
+}
+.skills-container ul > li{
+    padding: 0.5em;
+}
+  .second-section{
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+  }
+  .name-section{
+    padding-inline: 3em;
+    padding-block: 5.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .second-section h1{
+    font-size: 3rem;
+  }
+  .occupation{
+    font-weight: 400;
+    margin-bottom: 3px;
+  }
+  .second-section h1 > span{
+    color: #2d417f;
+  }
+  .name-hr{
+    border: 3px solid #2d417f;
+    width: 100px;
+  }
+  .second-section h2{
+    font-family: Tahoma, sans-serif;
+    color: #2d417f;
+    font-weight: 400;
+  }
+.profile-section p{
+    line-height: 1.5em;
+}
+.education-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5em;
+}
+.reference-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.reference-section h3{
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    margin-bottom: 0.5em;
+
+}
+.reference-section p{
+    margin-left: 0.5em;
+}
+@media (max-width: 1300px){
+  html{
+    font-size: 14px;
+  }
+}
+@media (max-width: 1150px){
+  html{
+    font-size: 12px;
+
+  }
+}
+@media (max-width: 999px){
+  .resume-container{
+    max-width: 90%;
+  }
+}
+@media (max-width: 900px){
+  .grad-pic{
+    width: 200px;
+  }
+  html{
+    font-size: 10px;
+  }
+}
+@media (max-width: 740px){
+  html{
+    font-size: 8px;
+  }
+  .grad-pic{
+    width: 150px;
+  }
+  .resume-container{
+    margin-top: 3em;
+  }
+}
+@media (max-width: 610px){
+  html{
+    font-size: 6px;
+  }
+  .grad-pic{
+    width: 100px;
+  }
+  .resume-container{
+    margin-block: 15em;
+  }
+}
